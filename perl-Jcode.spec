@@ -12,6 +12,7 @@ Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Jcode/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
 Buildrequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Jcode.pm supports both object and traditional approach. With object approach,
