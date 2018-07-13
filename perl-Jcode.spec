@@ -9,6 +9,8 @@ License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Jcode/%{modname}-%{modver}.tar.bz2
+Buildrequires:	perl(Test::More)
+Buildrequires:	perl(Test)
 Buildrequires:	perl-devel
 
 %description
