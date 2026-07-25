@@ -3,12 +3,12 @@
 
 Summary:	Japanese Charset Handle
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	20
+Version:	%{modver}
+Release:	21
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Jcode/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/Jcode
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Jcode-%{modver}.tar.gz
 BuildRequires:	make
 Buildrequires:	perl(Test::More)
 Buildrequires:	perl(Test)
